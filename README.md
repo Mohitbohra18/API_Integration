@@ -134,16 +134,16 @@ api-integration-project/
 ## 📸 Sample Output Screenshots
 
 ### 1. Listing Posts
-![Listing Posts](screenshots\image-5.png)
+![Listing Posts](screenshots/image-5.png)
 
 ### 2. View Post Details
-![Post Details](screenshots\image-1.png)
+![Post Details](screenshots/image-1.png)
 
 ### 3. Error Handling Example
-![Error Handling](screenshots\image-3.png)
+![Error Handling](screenshots/image-3.png)
 
 ### 4. Filtering Posts
-![Filtering](screenshots\image-2.png)
+![Filtering](screenshots/image-2.png)
 
 
 
