@@ -40,3 +40,108 @@ cd api-integration-project
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+
+
+# 🛰️ API Integration Project — Global Trend Internship Submission
+
+A professional Python-based **API Integration Project** built as part of the **Global Trend Internship Application**.  
+This application demonstrates REST API integration, caching, error handling, CLI tooling, testing, and clean software engineering practices.
+
+---
+
+## 📌 Project Overview
+
+This application integrates with the **JSONPlaceholder API** to fetch:
+
+- `/posts` — Blog posts  
+- `/users` — User information  
+
+It supports powerful filtering, caching, and robust error handling through a well-structured CLI.
+
+---
+
+## 🚀 Features
+
+### ✔ API Integration
+- Fetch posts and users using the `requests` library  
+- Retry logic with exponential backoff  
+- Timeout handling (10 seconds)  
+- JSON validation  
+- Logging for debugging  
+
+### ✔ Caching System
+- File-based cache (`cache/`)  
+- In-memory cache layer  
+- Automatic TTL expiration (5 minutes)  
+- Force-refresh option (`--force`)  
+
+### ✔ Command Line Interface (CLI)
+- `list posts` with filters:  
+  - `--user-id=`  
+  - `--limit=`  
+  - `--search=`  
+- `get post <id>` → Includes detailed author info  
+- `list users` with `--limit` & `--search`  
+- `get user <id>` → Includes post count  
+- `--verbose` for debug-level logs  
+- Auto-generated `--help`  
+
+### ✔ Error Handling
+Handles:  
+- Network failures  
+- API timeouts  
+- 4xx / 5xx HTTP errors  
+- Invalid JSON  
+- Malformed API data  
+- Corrupted cache files  
+- Invalid CLI arguments  
+
+### ✔ Developer Experience
+- Fully modular architecture  
+- PEP8 compliance + type hints  
+- Colored output using `colorama`  
+- `.env` config support  
+- Complete test suite (`pytest`)  
+
+---
+
+## 🗂️ Project Structure
+
+api-integration-project/
+│
+├── src/
+│ ├── api_client.py
+│ ├── cache_manager.py
+│ ├── data_filter.py
+│ ├── cli.py
+│ ├── utils.py
+│ └── init.py
+│
+├── tests/
+│ ├── test_api_client.py
+│ └── test_data_filter.py
+│
+├── cache/
+├── screenshots/
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+## 📸 Sample Output Screenshots
+
+### 1. Listing Posts
+![Listing Posts](screenshots/image-5.png)
+
+### 2. View Post Details
+![Post Details](screenshots/image-1.png)
+
+### 3. Error Handling Example
+![Error Handling](screenshots/image-3.png)
+
+### 4. Filtering Posts
+![Filtering](screenshots/image-2.png)
+![](image-1.png)
+
+
