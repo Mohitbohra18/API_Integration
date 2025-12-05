@@ -1,4 +1,3 @@
-# main.py
 """Entry point for the API Integration project."""
 
 import os

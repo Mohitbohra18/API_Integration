@@ -1,4 +1,3 @@
-# src/cli.py
 """Command-line interface wiring for the application."""
 
 from typing import List, Optional

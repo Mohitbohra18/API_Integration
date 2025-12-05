@@ -1,4 +1,3 @@
-# src/utils.py
 """Utility helpers: timing context manager, validation and colored printing helpers."""
 
 from contextlib import contextmanager

@@ -1,4 +1,3 @@
-# src/cache_manager.py
 """Cache manager: in-memory + file-based JSON caching with TTL."""
 
 from typing import Any, Dict, Optional

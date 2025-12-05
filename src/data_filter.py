@@ -1,4 +1,3 @@
-# src/data_filter.py
 """Filtering utilities for posts and users."""
 
 from typing import List, Dict, Any, Optional

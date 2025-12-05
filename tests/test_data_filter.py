@@ -1,4 +1,3 @@
-# tests/test_data_filter.py
 import unittest
 from src.data_filter import filter_posts, get_post_by_id, filter_users
 

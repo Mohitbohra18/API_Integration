@@ -1,4 +1,3 @@
-# src/api_client.py
 """API client for JSONPlaceholder with robust error handling, retries, and validation."""
 
 from typing import List, Dict, Any, Optional
