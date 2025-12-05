@@ -35,7 +35,7 @@
 
 ### Installation
 ```bash
-git clone <repo-url> api-integration-project
+git clone <https://github.com/Mohitbohra18/API_Integration.gitl> api-integration-project
 cd api-integration-project
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
@@ -128,6 +128,7 @@ api-integration-project/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## 📸 Sample Output Screenshots
 
@@ -142,6 +143,6 @@ api-integration-project/
 
 ### 4. Filtering Posts
 ![Filtering](screenshots\image-2.png)
-![](image-1.png)
+
 
 
