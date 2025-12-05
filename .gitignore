@@ -1,0 +1,9 @@
+# cache and python artifacts
+cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+.idea/
+.vscode/
+*.log
